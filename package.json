@@ -1,0 +1,26 @@
+{
+  "name": "rubickcube",
+  "version": "1.0.0",
+  "description": "Rubick's cube in babylon.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development && webpack-dev-server --mode development"
+  },
+  "author": "madclaws",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^5.3.2",
+    "typescript": "^3.2.2",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.5"
+  },
+  "dependencies": {
+    "babylonjs": "^3.3.0",
+    "babylonjs-gui": "^3.3.0",
+    "babylonjs-loaders": "^3.3.0"
+  }
+}
